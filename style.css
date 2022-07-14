@@ -82,22 +82,22 @@ li {
 }
 
 .itens_agendamento::before {
-    background-image: url(../cartão-de-vista/img/icone1.png);
+    background-image: url(../img/icone1.png);
     content: "";
 }
 
 .itens_contato::before {
-    background-image: url(../cartão-de-vista/img/icone2.png);
+    background-image: url(../img/icone2.png);
     content: "";
 }
 
 .itens_localizacao::before {
-    background-image: url(../cartão-de-vista/img/icone3.png);
+    background-image: url(../img/icone3.png);
     content: "";
 }
 
 .itens_site::before {
-    background-image: url(../cartão-de-vista/img/icone5.png);
+    background-image: url(../img/icone5.png);
     content: "";
 }
 
