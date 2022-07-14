@@ -1,0 +1,181 @@
+/*
+@font-face {
+    font-family: 'icones';
+    src: url(../cartao/icons.ttf);
+}
+*/
+body {
+    font-family: 'Gulzar', serif;
+}
+.cartao {
+    width: 500px;
+}
+
+.primeiro_bloco {
+    background-image: url(./img/primeira_img.jpg);
+    background-repeat: no-repeat;
+    padding-bottom: 24px;
+    background-size: 100%;
+
+}
+
+.logo {
+    right: 0;
+    position: relative;
+    width: 30%;
+}
+
+.perfil {
+    margin: 2rem 9.6rem 1rem 9.6rem;
+    width: 35%;
+    border-radius: 300px;
+    border-style: solid;
+    border: 8px solid #190A4D;
+}
+
+.nome {
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 30px;
+    border-radius: 30px;
+    align-items: center;
+    border-style: solid;
+    background-color: #190A4D;
+    padding-top: 10px;
+    margin: 0 8rem 4rem;
+    text-align: center;
+}
+
+.segundo_bloco {
+    background-image: url(./img/segunda_img.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+ul {
+    padding: 54px;
+    padding-bottom: 0px;
+}
+
+ul a {
+    font-size: 35px;
+    color: #190A4D;
+    padding-left: 11px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+li {
+    /* padding: 1rem 12rem 1rem 1rem; */
+    margin-bottom: 25px;
+}
+
+.itens {
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    border-style: solid;
+    border-radius: 75px;
+    width: 100%;
+    height: 67px;
+}
+
+.itens_agendamento::before {
+    background-image: url(../cartão-de-vista/img/icone1.png);
+    content: "";
+}
+
+.itens_contato::before {
+    background-image: url(../cartão-de-vista/img/icone2.png);
+    content: "";
+}
+
+.itens_localizacao::before {
+    background-image: url(../cartão-de-vista/img/icone3.png);
+    content: "";
+}
+
+.itens_site::before {
+    background-image: url(../cartão-de-vista/img/icone5.png);
+    content: "";
+}
+
+.itens::before {
+    background-repeat: no-repeat;
+    background-size: 71px;
+    width: 19%;
+    height: 73px;
+    display: inline-block;
+}
+
+.segundo_bloco li:hover a {
+    font-size: 38px;
+    color: #b0b0b0;
+}
+
+.rodape p {
+    font-size: 12px;
+    text-align: center;
+    background-color: #190A4D;
+    color: #fff;
+    border-radius: 75px;
+    font-weight: 400;
+    padding-top: 5px;
+}
+
+
+@media screen and (max-width: 1000px) {
+
+    .cartao {
+        width: auto;
+    }
+
+    .perfil {
+        margin: 9rem 17.5rem 1rem 17.5rem;
+        width: 42%;
+    }
+    
+    .nome {
+        font-size: 60px;
+        margin: 0 16rem 4rem;
+    }
+
+    ul a {
+        font-size: 66px;
+    }
+
+    .segundo_bloco li:hover a {
+        font-size: 72px;
+        color: #b0b0b0;
+    }
+
+    .itens {
+        padding-top: 61px;
+        padding-bottom: 38px;
+    }
+    .itens_agendamento::before {
+        background-size: 143px;
+        height: 152px;
+    }
+    .itens_contato::before {
+        background-size: 143px;
+        height: 152px;
+    }
+    .itens_localizacao::before {
+        background-size: 143px;
+        height: 152px;
+    }
+    .itens_site::before {
+        background-size: 143px;
+        height: 152px;
+    }
+
+    .rodape {
+        margin: 3rem 10rem 0 10rem;
+    }
+    .rodape p {
+        font-size: 29px;
+
+    }
+}
