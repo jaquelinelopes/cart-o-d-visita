@@ -60,7 +60,6 @@ ul {
 ul a {
     font-size: 35px;
     color: #190A4D;
-    padding-left: 11px;
     text-decoration: none;
     font-weight: bold;
 }
@@ -151,8 +150,8 @@ li {
     }
 
     .itens {
-        padding-top: 61px;
-        padding-bottom: 38px;
+        padding-top: 43px;
+        padding-bottom: 33px;
     }
     .itens_agendamento::before {
         background-size: 143px;
