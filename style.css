@@ -142,8 +142,15 @@ li {
     }
     
     .nome {
-        font-size: 46px;
         margin: 0 13rem 7rem;
+    }
+    
+    .nomesobrenome {
+        font-size: 61px;
+    }
+
+    .tecnica {
+        font-size: 35px;
     }
 
     ul a {
