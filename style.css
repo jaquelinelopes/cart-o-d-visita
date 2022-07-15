@@ -35,15 +35,21 @@ body {
 
 .nome {
     color: #ffffff;
-    font-weight: 400;
-    font-size: 28px;
     border-radius: 30px;
     align-items: center;
     border-style: solid;
     background-color: #190A4D;
     padding-top: 10px;
-    margin: 0 5rem 4rem;
+    margin: -19px 7rem 4rem;
     text-align: center;
+}
+
+.nomesobrenome {
+    font-size: 40px;
+}
+
+.tecnica {
+    font-size: 16px;
 }
 
 .segundo_bloco {
