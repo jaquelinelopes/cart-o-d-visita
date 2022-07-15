@@ -152,6 +152,7 @@ li {
     .itens {
         padding-top: 43px;
         padding-bottom: 33px;
+        margin-bottom: 45px;
     }
     .itens_agendamento::before {
         background-size: 143px;
