@@ -26,8 +26,8 @@ body {
 }
 
 .perfil {
-    margin: 1rem 9.6rem 1.8rem 9.6rem;
-    width: 35%;
+    margin: 1rem 9.7rem 1.8rem 9.7rem;
+    width: 34%;
     border-radius: 300px;
     border-style: solid;
     border: 8px solid #190A4D;
@@ -137,8 +137,8 @@ li {
     }
 
     .perfil {
-        margin: 3rem 17.5rem 1rem 17.5rem;
-        width: 42%;
+        margin: 3rem 17.9rem 1rem 17.9rem;
+        width: 40%;
     }
     
     .nome {
